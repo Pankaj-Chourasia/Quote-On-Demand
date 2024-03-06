@@ -2,6 +2,13 @@
 
 Welcome to Quotes On Demand, a web application that provides inspirational, motivational, humorous, and love quotes on demand.
 
+## Demo
+
+
+https://github.com/Pankaj-Chourasia/Quote-On-Demand/assets/147602545/8c502eee-7c47-44d1-8ab2-49faebbdf7f0
+
+
+
 ## Features
 
 - Display quotes from different categories: Motivation, Humor, Love, Wisdom, Technology, Friendship, Positivity, etc.
