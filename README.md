@@ -5,10 +5,11 @@ Welcome to Quotes On Demand, a web application that provides inspirational, moti
 ## Demo
 
 
-https://github.com/Pankaj-Chourasia/Quote-On-Demand/assets/147602545/8c502eee-7c47-44d1-8ab2-49faebbdf7f0
+https://github.com/Pankaj-Chourasia/Quote-On-Demand/assets/147602545/2866e534-7d37-4af2-ab7b-a41c79a613db
 
 
-
+- NOTE:
+   - Due to some reasons the dropdown menu is not visible in video may be screen recorder does not able to capture it although it works fine in real time.
 ## Features
 
 - Display quotes from different categories: Motivation, Humor, Love, Wisdom, Technology, Friendship, Positivity, etc.
