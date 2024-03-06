@@ -4,13 +4,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quote On Demand</title> 
-</head>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
 <body>
-  <h1>Click for Inspiration!</h1> 
-  <button id="button">Show Quote</button>
-  <div id="quote-container"></div>
-  
-  <script src="script.js"></script> 
+  <div class="container">
+    <header>
+      <h1 id="quoteOnText">Quote On
+      <span id="dynamicText">Demand</span>
+      </h1>
+    </header>
+    <main>
+      <div class="quote-container">
+        <button id="button">Show Quote</button>
+        <select id="category">
+          <option value="all">All</option>
+          <option value="motivation">Motivation</option>
+          <option value="humor">Humor</option>
+          <option value="love">Love</option>
+          <!-- Add more categories as needed -->
+        </select>
+        <div id="quote-container" class="quote-hidden"></div>
+      </div>
+    </main>
+    <footer>
+      <div class="social-media">
+        <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+        <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+        <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="contact-info">
+        <p>Contact us: contact@quoteondemand.com</p>
+      </div>
+      <div class="footer-info">
+        <p>Made with ❤️ by Pankaj Chourasia</p>
+        <p>© 2024 Quote On Demand. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+  <script src="script.js" defer></script>
 </body>
 </html>
