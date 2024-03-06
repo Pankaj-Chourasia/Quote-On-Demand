@@ -6,8 +6,8 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f6f7f9; /* Light gray background */
-  color: #333; /* Dark gray text */
+  background-color: #f6f7f9; 
+  color: #333; 
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -26,7 +26,7 @@ header {
 
 h1 {
   margin: 0;
-  color: #fff; 
+  color: #9BCF53; 
   font-size: 2.5em;
   font-family: 'Marhey', sans-serif;
 }
@@ -46,6 +46,7 @@ button {
   background-color: #ff6f61; 
   color: #fff; 
   padding: 15px 30px; 
+  font-family: 'Libre Baskerville', sans-serif;
   border: none;
   border-radius: 30px;
   cursor: pointer;
