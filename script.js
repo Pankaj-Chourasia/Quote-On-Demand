@@ -35,7 +35,11 @@ const batmanQuotes = [
     //event listener to the button
     button.addEventListener('click', () => {
       const quoteData = getRandomQuote();
-      displayQuote(quoteData);
-    });
+      quoteContainer.classList.remove('show');
+      setTimeout(() => {
+          displayQuote(quoteData);
+          quoteContainer.classList.add('show');
+      }, 500);
+  });
   
     
